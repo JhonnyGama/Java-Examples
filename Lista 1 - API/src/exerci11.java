@@ -8,9 +8,9 @@ public class exerci11 {
 		String valor1, valor2, temp;
 
 		// Pede ao usuário dois valores literal
-		System.out.print("Digite o primeiro valor literal: ");
+		System.out.println("Digite o primeiro valor literal: ");
 		valor1 = sc.nextLine();
-		System.out.print("Digite o segundo valor literal: ");
+		System.out.println("Digite o segundo valor literal: ");
 		valor2 = sc.nextLine();
 
 		System.out.println("Antes da troca:\nValor 1: " + valor1 + "\nValor 2: " + valor2);

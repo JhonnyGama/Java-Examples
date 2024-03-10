@@ -26,8 +26,8 @@ public class exerci7 {
 
 			// Mostra o resultado
 			System.out.println("As raízes da equação são:");
-			System.out.println("x1 = " + x1);
-			System.out.println("x2 = " + x2);
+			System.out.printf("x1 = %.2f\n", x1);
+			System.out.printf("x2 = %.2f", x2);
 		}
 
 	}

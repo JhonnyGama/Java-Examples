@@ -18,7 +18,7 @@ public class exerci8 {
         restante = pesoSacoG - consumoTotal;
 
         // Mostra o resultado
-        System.out.println("Após cinco dias, restarão " + restante + " gramas de ração no saco.");
+        System.out.printf("Após cinco dias, restarão %.2f gramas de ração no saco.", restante);
 
 	}
 
