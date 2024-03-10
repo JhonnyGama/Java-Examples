@@ -11,7 +11,7 @@ public class exerci8 {
         pesoSacoKg = sc.nextDouble();
         System.out.println("Digite a quantidade de ração fornecida para cada gato por dia em gramas (g): ");
         quantidadeDiariaPorGato = sc.nextInt();
-
+        
         // Calculo
         consumoTotal = (quantidadeDiariaPorGato * 2) * 5;
         pesoSacoG = pesoSacoKg * 1000;
