@@ -4,7 +4,7 @@ public class exerci8 {
 	public static void main(String[] args) {
 		
 		Scanner sc = new Scanner(System.in);
-		double pesoSacoKg,quantidadeDiariaPorGato,consumoTotal,resultado;
+		double pesoSacoKg,quantidadeDiariaPorGato,consumoTotal;
 		
         // Recebendo o peso do saco de ração em quilogramas
         System.out.println("Digite o peso do saco de ração em quilogramas (Kg): ");
@@ -13,11 +13,10 @@ public class exerci8 {
         quantidadeDiariaPorGato = sc.nextDouble();
         
         // Calculo
-        consumoTotal = ((pesoSacoKg - quantidadeDiariaPorGato) / 1000) * 2;
-        resultado = consumoTotal * 5;
-        
+        consumoTotal = pesoSacoKg - quantidadeDiariaPorGato / 1000 * 2 * 5;
+
         // Mostra o resultado
-        System.out.printf("Após cinco dias, restarão %.2f KG de ração no saco.", resultado);
+        System.out.printf("Após cinco dias, restarão %.2f KG de ração no saco.", consumoTotal);
 
 	}
 
