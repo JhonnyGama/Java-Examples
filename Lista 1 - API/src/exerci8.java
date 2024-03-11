@@ -14,7 +14,7 @@ public class exerci8 {
         
         // Calculo
         consumoTotal = pesoSacoKg - quantidadeDiariaPorGato / 1000 * 2 * 5;
-        
+        s
         // Mostra o resultado
         System.out.printf("Após cinco dias, restarão %.2f KG de ração no saco.", consumoTotal);
 
